@@ -30,10 +30,10 @@ EquipSearch.tSearchSort =
 	{
 		["±øÈÐ"] =
 		{
-		 	nSortID = 1,
-		 	tSubSort =
-		 	{
-		 		["¹÷Àà"]   = 1,
+			nSortID = 1,
+			tSubSort =
+			{
+				["¹÷Àà"]   = 1,
 				["³¤±ø"]   = 2,
 				["¶Ì±øÀà"] = 3,
 				["Ë«±øÀà"] = 5,
@@ -43,8 +43,9 @@ EquipSearch.tSearchSort =
 				["Ç§»úÏ»"] = 9,
 				["Íäµ¶"] = 10,
 				["¶Ì°ô"] = 11,
-				["µ¶¶Ü"] = 12,
+				["¶Ü"] = 12,
 				["ÇÙ"] = 13,
+				["µ¶"] = 14,
 			},
 		},
 		["°µÆ÷"] =
@@ -697,7 +698,7 @@ function EquipSearch.UpdateResultList(frame, nStart, tResult)
         hItem:Lookup("Text_BoxName"):SetText(tItem.szName)
         local r, g, b = GetItemFontColorByQuality(hItemInfo.nQuality)
         hItem:Lookup("Text_BoxName"):SetFontColor(r, g, b)
-        hItem:Lookup("Text_BoxCategory"):SetText(tItem.szEquipType)
+		hItem:Lookup("Text_BoxCategory"):SetText(tItem.szEquipType)
         hItem:Lookup("Text_BoxLevel"):SetText(tItem.nRequireLevel)
         hItem:Lookup("Text_BoxQuality"):SetText(tItem.nQualityLevel)
         hItem:Lookup("Text_BoxRepresent"):SetText(hItem.nRepresentID)

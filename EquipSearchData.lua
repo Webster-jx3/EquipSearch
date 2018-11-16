@@ -73,7 +73,6 @@ Title = {
 	{f = "s", t = "MagicKind"},
 	{f = "s", t = "MagicType"},
 	{f = "s", t = "GetType"},
-	{f = "s", t = "BelongMap"},
 	{f = "s", t = "_CATEGORY"},
 	{f = "i", t = "CoolDownID"},
 	{f = "s", t = "IconTag1"},
@@ -119,8 +118,7 @@ Title = {
 	{f = "s", t = "MapBanTradeItemMask"},
 	{f = "s", t = "MapCanExistItemMask"},
 	{f = "s", t = "MapBanEquipItemMask"},
-
-
+	{f = "s", t = "IsPVEEquip"},
 	}
 }
 
@@ -198,7 +196,6 @@ Title = {
 	{f = "s", t = "MagicKind"},
 	{f = "s", t = "MagicType"},
 	{f = "s", t = "GetType"},
-	{f = "s", t = "BelongMap"},
 	{f = "i", t = "_CATEGORY"},
 	{f = "i", t = "CoolDownID"},
 	{f = "s", t = "IconTag1"},
@@ -243,8 +240,8 @@ Title = {
 	{f = "s", t = "MapBanTradeItemMask"},
 	{f = "s", t = "MapCanExistItemMask"},
 	{f = "s", t = "MapBanEquipItemMask"},
-
-
+	{f = "s", t = "IsPVEEquip"},
+	{f = "s", t = "BelongMap"},
 	}
 }
 
